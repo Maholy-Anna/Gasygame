@@ -1,0 +1,84 @@
+<!DOCTYPE HTML >
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Ankamatatra</title>		
+<link rel="stylesheet" href="css/ankamatatra.css" type="texst/css">
+
+<script src="js/ankamatatra.js" type="text/javascript"></script>
+		
+</head>	
+<body onLoad="init()">
+	
+
+	
+	<form method="post">
+		<div id="contf" align="center">
+			<table border="4" width="460px">
+				<tr>
+				  <td align="center" colspan="3" bgcolor="bleu"><font size="50px" valign="middle">Inona ary zany o?</font></td>
+				</tr>
+				<tr>
+				  <td bgcolor="black" align="right"><b>Question:</b></td>
+				  <td colspan="2" bgcolor="red" align="center"><textarea cols="80" rows="2" name="question"></textarea></td>
+				</tr>
+				<tr>
+				  <td align="center" bgcolor="#F2C986"><input type="text" name="tda" size="12" value=""></td>
+				  <td bgcolor="#B9FBFD" align="left" width="350"><input type="text" name="choiceA" size="70"></td>
+				  <td bgcolor="#B9FBFD" align="center" width="40px"><input type=button name="choixa" class="bout3" value="A" onClick="repa(this.form);testrep(this.form);"></td>
+				</tr>
+				<tr>
+				  <td align="center" bgcolor="#F2C986"><input type="text" name="tdb" size="12" value=""></td>
+				  <td bgcolor="#B9FBFD" align="left"><input type="text" name="choiceB" size="70"></td>
+				  <td bgcolor="#B9FBFD" align="center"><input type=button name="choixb" class="bout3" value="B" onClick="repb(this.form);testrep(this.form);"></td>
+				</tr>
+			
+				<tr>
+				  <td colspan="3" bgcolor="#B9FBFD" align="left"><input type="hidden" name="yourChoice" size="4"></td>
+				</tr>
+				<tr>
+				  <td bgcolor="#B9FBFD" align="center"><input type="button" class="bout" value="Nouveau Jeu" onclick="clearForm(this.form);init(this.form);"></td>
+				  <td colspan="2" bgcolor="#B9FBFD" align="center"><input type="button" align="center" class="bout2" value="Question Suivante" onclick="clearRep(this.form);nextQuestion(this.form);"></td>
+				  </td>
+				</tr>
+				<tr>
+				  <td bgcolor="#F2C986" align="right"><b>Resultats:</b></td>
+				  <td colspan="2" bgcolor="#B9FBFD" align="center" background="lightyellow"><p><textarea COLS="80" ROWS="3" name="results"></textarea></td>
+				</tr>
+				<tr>
+				  <td bgcolor="yellow" align="right"><b>Score:</b></td>
+				  <td colspan="2" bgcolor="yellow"><b>&nbsp;&nbsp;Points:&nbsp;</b><input type="text" name="myScore" size="4">&nbsp;&nbsp;<b>sur&nbsp;&nbsp;</b><input type="text" name="questNo" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;</b>
+				  <input type="text" name="percent" size="6"><b>&nbsp;%</td>
+				</tr>
+			</table>
+		</div>
+		<div id="explic">
+			<table class="tabpers">
+				<tr border="1px solid #808080">
+					<td height="1" align="center">
+						<marquee scrollamount="2" width="290px" height="250px" align="left" behavior="scroll" direction="Up" onMouseOver="this.stop();" onMouseOut="this.start();">
+			
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="titreq">ANKAMANTATRA</span><br><br>
+							&nbsp;<alt="sigle">&nbsp;<span class="texteq">A Madagascar,l'&eacute;ducation ainsi que la transmission des us et coutumes passent beaucoup par les traductions orales et jeux d'esprit.<br><br>
+							&nbsp;<alt="sigle">&nbsp;&nbsp;Le mot ankamantatra vient de "fantatra"(connu). <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les ankamantatra commencent toujours par la question "inona ary zany o?"(qu'est ce que c'est?) <br>
+							&nbsp;<alt="sigle">&nbsp;&nbsp;A chaque question&#44; choisissez votre<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r&eacute;ponse avec un clic sur A&#44; B&#44;<br><br>
+							&nbsp;<alt="sigle">&nbsp;&nbsp;Votre r&eacute;sultat&#44 score et pourcentage<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s&acute;affichent en-dessous. Ensuite un clic sur<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;le bouton &#34;Question suivante&#34;.<br><br>
+							&nbsp;<alt="sigle">&nbsp;&nbsp;A la fin du quiz vous pouvez rejouer<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;avec un clic sur le bouton &#34;Nouveau jeu&#34; <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;avec 20 nouvelles questions<br><br><br></span>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="textevq">Bon amusement !</span>
+							<br><br>
+						</marqee>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+
+</html>	

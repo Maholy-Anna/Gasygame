@@ -1,0 +1,196 @@
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: rgb(106, 191, 237);
+	background-color:rgb(106, 191, 237) ;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: xxsmall;
+	text-align: center;
+}
+input {
+	background-color:  rgb(106, 191, 237);
+	color:rgb(106, 191, 237);
+	font-family: arial, verdana, ms sans serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+} 
+textarea {
+	background-color: rgb(106, 191, 237);
+	border: rgb(106, 191, 237);
+	color: white;
+	font-family: arial, verdana, ms sans serif;
+	font-size: 12pt;
+	font-weight: normal;
+	text-align: center;
+	overflow: hidden;
+}
+.tabpers{
+	width: 300px;
+	height: 250px;
+	border: 1px solid #808080;
+	text-align: center;
+	background-color:rgb(106, 191, 237) ;
+} 
+#sigle2 {
+	position: absolute;
+	left: 1070px;
+	top: 98px;
+	height: 30px;
+	width: 43px;
+}
+#explic {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	height: 260px;
+	width: 280px;
+	text-align: center;
+}
+#contboutexit {
+	position: absolute;
+	left: 170px;
+	top: 355px;
+	height: 30px;
+	width: 80px;
+}
+.altButtonFormat {
+	background-color:rgb(106, 191, 237) ;
+	font-family: verdana;
+	border: blue 1px solid;
+	font-size: 12px;
+	color: rgb(106, 191, 237);
+} 
+
+.altTextField {
+	background-color:rgb(106, 191, 237) ;
+	font-family: verdana;
+	font-size: 12pt;
+	color: blue;
+}
+.radioStyle {
+	background-color: rgb(106, 191, 237);
+	border: blue solid 1px;
+	font-family: verdana;
+	font-size: 12px;
+	color: blue;
+}
+.bout {
+	border: 2px solid  rgb(106, 191, 237);
+	width: 140px;
+	background: blue;
+	cursor: hand;
+	text-align: center;
+}
+.bout2 {
+	border: 2px solid rgb(106, 191, 237);
+	width: 200px;
+	background: blue;
+	cursor: hand;
+	text-align: center;
+}
+.bout3 {
+	border: 2px solid rgb(106, 191, 237);
+	width: 40px;
+	background: blue;
+	cursor: hand;
+	font-size: 14px;
+	text-align: center;
+}
+#contf {
+	position: absolute;
+	left: 320px;
+	top: 20px;
+	height: 500px;
+	width: 820px;
+
+}
+
+#selecta {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	height: 160px;
+	width: 250px;
+	font-size: 12px;
+	text-align: left;
+	padding: 5px 0px 0px 5px;
+	background-color: rgb(106, 191, 237);
+	border: 1px solid blue;
+}
+#selectb {
+	position: absolute;
+	left: 290px;
+	top: 20px;
+	height: 160px;
+	width: 250px;
+	text-align: left;
+	font-size: 12px;
+	padding: 5px 0px 0px 5px;
+	background-color: rgb(106, 191, 237);
+	border: 1px solid blue;
+}
+
+#laureat {
+	position: absolute;
+	left: 1195px;
+	top: 115px;
+	height: 150px;
+	width: 100px;
+	background-color:rgb(106, 191, 237) ;
+	border: 1px solid blue;
+}
+#comment {
+	position: absolute;
+	left: 1175px;
+	top: 275px;
+	height: 30px;
+	width: 90px;
+	text-align: center;
+	font-size: 14px;
+}
+.titre {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: left;
+	color: blue;
+}
+.texte {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	color: blue;
+}
+.textev {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: left;
+	color: blue;
+}
+.titreq {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+.texteq {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt;
+	font-weight: normal;
+	text-align: center;
+	color: blue;
+}
+.textevq {
+	font-family: arial, verdana, ms sans serif;
+	font-size: 12pt;
+	font-weight: normal;
+	text-align: center;
+	color: blue;
+}
